@@ -6,6 +6,17 @@ body {
   font-family:'Inter', 'Courier New', Courier, monospace;
 }
 
+h2 {
+  color: white;
+  font-size: 1.3rem;
+}
+
+p {
+  color: white;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
 .info-card {
   background-color: #1a1b21;
   width: 300px;   /* fixed width for card */
