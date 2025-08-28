@@ -1,9 +1,14 @@
 body {
   background-color: #23252c;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .info-card {
   background-color: #1a1b21;
+  width: 300px;
+  border-radius: 12px;
 }
 
 img {
