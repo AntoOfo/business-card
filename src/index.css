@@ -33,3 +33,17 @@ header > p {
   font-size: 0.9rem;
   margin-top: 2%;
 }
+.buttons-div{
+  display: flex;
+  justify-content: center;
+}
+.btn-info {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
