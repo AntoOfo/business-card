@@ -24,8 +24,8 @@ p {
   background-color: #1a1b21;
   width: 300px;   /* fixed width for card */
   border-radius: 12px;  
-  padding: 20px;
   text-align: center;
+  overflow: hidden;
 }
 
 img {
@@ -100,4 +100,17 @@ header > p {
 
 .interests-div > p {
   margin-top: 3%;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(18, 18, 18);
+  justify-content: center;
+  gap: 80px;
+  padding: 12px;
+}
+
+.footer > img {
+  width: 22px;
+  opacity: calc(50%);
 }
