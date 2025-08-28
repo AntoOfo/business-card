@@ -1,15 +1,15 @@
 body {
   background-color: #23252c;
   display: flex;
-  justify-content: center;
+  justify-content: center;  /* centres whole body*/
   padding: 20px;
   font-family:'Inter', 'Courier New', Courier, monospace;
 }
 
 .info-card {
   background-color: #1a1b21;
-  width: 300px;
-  border-radius: 12px;
+  width: 300px;   /* fixed width for card */
+  border-radius: 12px;  
   padding: 20px;
   text-align: center;
 }
@@ -24,7 +24,7 @@ img {
 header > h1 {
   color: white;
   font-weight: 700;
-  margin-bottom: 0%;
+  margin-bottom: 0%;  /* no automatic space under*/
 }
 
 header > p {
