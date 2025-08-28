@@ -1,0 +1,20 @@
+body {
+  background-color: #23252c;
+}
+
+.info-card {
+  background-color: #1a1b21;
+}
+
+img {
+  display: block;
+  width: 140px;
+}
+
+header > h1 {
+  color: white;
+}
+
+header > p {
+  color: rgb(255, 142, 101);
+}
