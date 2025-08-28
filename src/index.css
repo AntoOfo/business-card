@@ -3,23 +3,33 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
+  font-family:'Inter', 'Courier New', Courier, monospace;
 }
 
 .info-card {
   background-color: #1a1b21;
   width: 300px;
   border-radius: 12px;
+  padding: 20px;
+  text-align: center;
 }
 
 img {
   display: block;
-  width: 140px;
+  width: 100%;    /* fill card width */
+  height: auto;   /* fixes aspect ratio.. */
+  border-radius: 12px;
 }
 
 header > h1 {
   color: white;
+  font-weight: 700;
+  margin-bottom: 0%;
 }
 
 header > p {
   color: rgb(255, 142, 101);
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 2%;
 }
