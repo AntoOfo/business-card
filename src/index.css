@@ -89,3 +89,12 @@ header > p {
 .about-div > h2 {
   margin: 0;
 }
+
+.interests-div {
+  text-align: left;
+  margin-top: 10%;
+}
+
+.interests-div > h2 {
+  margin: 0;
+}
