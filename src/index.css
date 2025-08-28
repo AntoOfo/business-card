@@ -8,7 +8,7 @@ body {
 
 h2 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin: 0;
 }
@@ -16,7 +16,8 @@ h2 {
 p {
   color: white;
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.73rem;
+  line-height: 140%;
   margin: 0;
 }
 
@@ -38,20 +39,21 @@ img {
 header > h1 {
   color: white;
   font-weight: 700;
+  font-size: 1.8rem;
   margin-bottom: 0%;  /* no automatic space under*/
 }
 
 header > p {
-  color: rgb(255, 142, 101);
+  color: rgb(251, 164, 133);
   font-weight: 300;
   font-size: 0.9rem;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .buttons-div{
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .email-btn {
   display: flex;
@@ -95,7 +97,7 @@ header > p {
 
 .interests-div {
   text-align: left;
-  margin-top: 10%;
+  margin-top: 9%;
 }
 
 .interests-div > p {
