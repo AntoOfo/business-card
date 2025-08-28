@@ -10,12 +10,14 @@ h2 {
   color: white;
   font-size: 1.2rem;
   font-weight: 600;
+  margin: 0;
 }
 
 p {
   color: white;
   font-weight: 200;
   font-size: 0.8rem;
+  margin: 0;
 }
 
 .info-card {
@@ -86,15 +88,16 @@ header > p {
   margin-top: 10%;
 }
 
-.about-div > h2 {
-  margin: 0;
+.about-div > p {
+  margin-top: 3%;
 }
+
 
 .interests-div {
   text-align: left;
   margin-top: 10%;
 }
 
-.interests-div > h2 {
-  margin: 0;
+.interests-div > p {
+  margin-top: 3%;
 }
