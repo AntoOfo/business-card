@@ -8,7 +8,8 @@ body {
 
 h2 {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 p {
@@ -78,4 +79,13 @@ header > p {
   width: 16px;
   height: 16px;
   margin-right: 8px;
+}
+
+.about-div {
+  text-align: left;
+  margin-top: 10%;
+}
+
+.about-div > h2 {
+  margin: 0;
 }
