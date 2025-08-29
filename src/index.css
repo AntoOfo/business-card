@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;  /* centres whole body*/
   padding: 20px;
-  font-family:'Inter', 'Courier New', Courier, monospace;
+  font-family:'Inter', 'system-ui', sans-serif;
 }
 
 h2 {
