@@ -21,6 +21,10 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .info-card {
   background-color: #1a1b21;
   width: 300px;   /* fixed width for card */
