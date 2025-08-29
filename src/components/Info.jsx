@@ -1,20 +1,20 @@
 export default function Info() {
     return (
         <header>
-            <img src="src/assets/placeholder.jpg" alt="placeholder image"/>
+            <img src="/placeholder.jpg" alt="placeholder image"/>
             <h1>Antonio Ofodile</h1>
             <p>Junior Front End Developer</p>
             
             <div className="buttons-div">
 
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=antonioofodileuk@gmail.com">
-            <button className="email-btn"><img src="src/assets/email.png" alt="email icon" className="btn-icon" />
+            <button className="email-btn"><img src="/email.png" alt="email icon" className="btn-icon" />
                 Email
             </button>
             </a>
 
             <a href="https://www.linkedin.com/in/antonioofodile/">
-            <button className="link-btn"><img src="src/assets/linkedin.png" alt="email icon" className="btn-icon" />
+            <button className="link-btn"><img src="/linkedin.png" alt="email icon" className="btn-icon" />
                 LinkedIn
             </button>
             </a>
