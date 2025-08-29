@@ -69,10 +69,14 @@ header > p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 0.9rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .email-btn:hover { 
   background-color: white;
+  cursor: pointer;
+}
+.email-btn:active {
+  transform: scale(0.95);
 }
 
 .link-btn{ 
@@ -86,10 +90,14 @@ header > p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 0.9rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .link-btn:hover { 
   background-color: #2DAFFF;
+  cursor: pointer;
+}
+.link-btn:active {
+  transform: scale(0.95);
 }
 
 .btn-icon {
