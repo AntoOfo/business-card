@@ -62,18 +62,23 @@ header > p {
 .email-btn {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: rgb(228, 228, 228);
   border: none;
   border-radius: 4px;
   padding: 7px 22px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 0.9rem;
+  transition: 0.3s;
 }
+.email-btn:hover { 
+  background-color: white;
+}
+
 .link-btn{ 
   display: flex;
   align-items: center;
-  background-color: #2DAFFF;
+  background-color: #41a2df;
   color: white;
   border: none;
   border-radius: 4px;
@@ -81,6 +86,10 @@ header > p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 0.9rem;
+  transition: 0.3s;
+}
+.link-btn:hover { 
+  background-color: #2DAFFF;
 }
 
 .btn-icon {
